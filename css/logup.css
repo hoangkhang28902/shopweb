@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%),url("../imageweb/logup.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.avtlogup
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    left: 35%;
+}
+.logup 
+{
+    height: 700px;
+    width: 460px;
+    position:absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.85);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 20px;
+    margin-top: 20px;
+}
+p,h1
+{
+    color: whitesmoke;
+}
+h1
+{   
+    text-align: center;
+    padding: 10px 0 10px ;
+}
+.logupp input
+{
+    width: 95%;
+    height: 20px;
+    color: whitesmoke;
+    
+}
+p
+{
+    font-size: 18px;   
+}
+.logupp input[type="text"],input[type="password"],input[type="date"],input[type=email],input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    outline: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.logupp input[type=submit]
+
+    {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;    /* lam cho cai nut no hien mau */
+      padding: 3px 10px;
+      font-size: 20px;
+      background: transparent;
+      position: relative;
+      cursor: pointer;
+      height: 40px;
+    }
+    .logupp input[type="submit"]:hover
+    {
+      border:1px solid #f44336;
+      background: #f44336;
+      transition:1s;
+    }
+    a:hover
+    {
+        color:red ;
+        transition: 1s;
+    }
+    a
+    {   
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color:whitesmoke;
+    }

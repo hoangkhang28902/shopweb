@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%),url("../imageweb/imagelogin.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+#avata
+{
+    height: 100px;
+    width: 100px;
+}
+.boxlogin
+{
+    width: 420px;
+    height: 520px;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.85);
+    padding: 70px 30px;
+    font-size: 20px;
+}
+#avatar{
+    border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   position: absolute;                       /* chinh anh vaf cho no lech ra ngoai khung */
+   top: -65px;
+   left: 35%;
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+    color: whitesmoke;
+}
+.boxlogin input
+{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.boxlogin input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.boxlogin input[type="submit"]
+{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;    /* lam cho cai nut no hien mau */
+  padding: 3px 10px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+}
+.boxlogin input[type="submit"]:hover
+{
+  border:1px solid whitesmoke;
+  background: #f44336;
+  transition:1s;
+}
+p
+{
+    color: whitesmoke;
+}
+a:hover
+{
+    
+    color: #f44336;
+    transition:1s;
+}
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
